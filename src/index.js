@@ -13,14 +13,9 @@ const people = [
 ]
 
 return<ol>
-
   {people.map((person)=> (
     <li>{person.name}</li>
-  ))}
- <li>{people[0].name}</li>
-  <li>{3 * 4}</li>
-  <li>{true ? 'James'  : 'Hsu'}</li>
-   
+  ))}   
 </ol>
   }
 }
